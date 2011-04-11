@@ -1,12 +1,12 @@
 [user]
-        name = Christopher Sexton
-        email = csexton@gmail.com
+        name = Scott Yoder
+        email = yodersb@gmail.com
 [color]
         diff = auto
         status = auto
         branch = auto
 [core]
-        excludesfile = /Users/csexton/.gitignore
+        excludesfile = /Users/scott/.gitignore
 [alias]
         ci = commit
         co = checkout
@@ -20,7 +20,7 @@
 [apply]
         whitespace = strip
 [github]
-	user = csexton
+	user = syoder
 [merge]
         summary = true
 [push]

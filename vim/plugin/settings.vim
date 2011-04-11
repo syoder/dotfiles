@@ -143,6 +143,6 @@ endfunction
 command! Preso :call Preso()
 
 colorscheme risto
-autocmd GuiEnter * set guifont=Anonymous\ Pro:h16,Monaco:h16
+autocmd GuiEnter * set guifont=Anonymous\ Pro:h11,Monaco:h11
 
 

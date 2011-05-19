@@ -1,5 +1,5 @@
 """ Settings
-set lines=40 columns=120
+set lines=40 columns=140
 set nocompatible
 set autoindent
 set autoread

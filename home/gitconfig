@@ -6,7 +6,7 @@
         status = auto
         branch = auto
 [core]
-        excludesfile = /Users/scott/.gitignore
+	excludesfile = /Users/scott/.gitignore_global
 [alias]
         ci = commit
         co = checkout
@@ -27,3 +27,9 @@
         default = matching
 [diff "ruby"]
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

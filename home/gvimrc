@@ -1,0 +1,6 @@
+if has("gui_macvim")
+  nmap <SwipeLeft> :bN<CR>
+  nmap <SwipeRight> :bn<CR>
+  macmenu &File.New\ Tab key=<nop>
+  nmap <D-t> :NERDTreeToggle<CR>
+endif

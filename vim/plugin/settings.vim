@@ -145,10 +145,12 @@ function! Preso()
 endfunction
 command! Preso :call Preso()
 
-colorscheme risto
-"set background=dark
+" colorscheme risto
+set background=dark
 let g:solarized_visibility="low" " Let trailer trash handle whitespace
-"colorscheme solarized
+let g:solorized_contrast="normal"
+let g:solarized_termtrans=1
+colorscheme solarized
 autocmd GuiEnter * set guifont=Anonymous\ Pro:h11,Monaco:h11
 set lines=40 columns=140
 
